@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `scan2bin-app`,
-    siteUrl: ``,
+    siteUrl: `https://www.camistudio.com.br`,
     description: `Uma empresa com foco em engenharia digital, pioneira e referência no Brasil, fornecendo e implementando soluções com tecnologias líderes no mercado mundial de software e hardware. Atuamos na convergência entre a tecnologia e engenharia garantindo maior geração de valor para nossos clientes e seu ecossistema de negócios.`,
   },
   plugins: [
