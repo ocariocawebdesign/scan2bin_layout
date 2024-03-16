@@ -1,15 +1,16 @@
 import React from "react";
-import Digital from "../img/3d.jpg";
+import Digital from "./img/oculos-vr.jpg";
 import OpenSpace from "../img/openspace.png";
 import MatterPort from "../img/matterport.png";
 import Pars from "../img/pars.png";
 
 
 
+
 const HeroContent = () => {
+
   return (
     <>
-
       <section id="mainHero" className="mt-5">
         <div className="container-fluid">
           <div className="container container-props">
@@ -79,9 +80,9 @@ const HeroContent = () => {
 
                 </div>
               </div>
-              <div style={{display:"flex",justifyContent:"center"}} className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+              <div style={{ display: "flex", justifyContent: "center" }} className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
                 <div className=" image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
-                  <img style={{ borderRadius:"2%", opacity:"0.8"}}
+                  <img style={{ borderRadius: "2%", opacity: "0.8" }}
                     width="420"
                     className="img-fluid "
                     src={Digital}
@@ -89,6 +90,7 @@ const HeroContent = () => {
                   />
                 </div>
               </div>
+
             </div>
           </div>
         </div>
