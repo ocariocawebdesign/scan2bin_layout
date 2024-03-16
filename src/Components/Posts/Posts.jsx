@@ -9,7 +9,7 @@ const Posts = ({ startIndex }) => {
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get('http://localhost/wordpress/wp-json/wp/v2/posts');
+                const response = await axios.get('https://camistudio.com.br/scan2bindados/wp-json/wp/v2/posts');
                 setPosts(response.data);
             } catch (error) {
                 console.error('Erro ao obter posts:', error);
