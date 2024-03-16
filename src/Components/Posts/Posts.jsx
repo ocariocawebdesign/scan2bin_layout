@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+
+//Pegar imagem destacada: https://camistudio.com.br/scan2bindados/wp-json/wp/v2/media/31
 const Posts = ({ startIndex }) => {
     const [posts, setPosts] = useState([]);
 

@@ -6094,117 +6094,118 @@ function Header() {
 /*!****************************************************!*\
   !*** ./src/Components/HeroContent/HeroContent.jsx ***!
   \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/oculos-vr.jpg */ "./src/Components/HeroContent/img/oculos-vr.jpg");
-/* harmony import */ var _img_openspace_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/openspace.png */ "./src/Components/img/openspace.png");
-/* harmony import */ var _img_matterport_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/matterport.png */ "./src/Components/img/matterport.png");
-/* harmony import */ var _img_pars_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/pars.png */ "./src/Components/img/pars.png");
-/* harmony import */ var _Slide_Slide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Slide/Slide */ "./src/Components/Slide/Slide.jsx");
-
-
+/*import React from "react";
+import Digital from "./img/oculos-vr.jpg";
+import OpenSpace from "../img/openspace.png";
+import MatterPort from "../img/matterport.png";
+import Pars from "../img/pars.png";
+import Slide from "../Slide/Slide";
 
 
 
 
 const HeroContent = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slide_Slide__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    id: "mainHero",
-    className: "mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container-fluid"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "container container-props"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "text-wrapper align-left"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    id: "title-hero",
-    className: "mbr-section-title mb-5 mt-5 display-2 text-uppercase animate__animated animate__fadeIn",
-    style: {
-      fontSize: "2.5rem",
-      fontWeight: "700",
-      color: "#FFF",
-      lineHeight: "45px"
-    }
-  }, "SOMOS A CONVERG\xCANCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS UMA CONSTRUTORA DIGITAL."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: "mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s",
-    style: {
-      fontSize: "1.2em",
-      fontWeight: "400",
-      color: "#FAFAFA",
-      lineHeight: "28px"
-    }
-  }, "Oferecemos uma gama completa de solu\xE7\xF5es e servi\xE7os, auxiliando nossos clientes a construir um mundo digital"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "mbr-section-btn mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "mt-5 mb-4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    className: "btn-call-action btn-large",
-    href: "#"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "text-lg font-bold"
-  }, "Saiba mais sobre nossos servi\xE7os"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    id: "title-plataformas",
-    className: "text-left text-uppercase",
-    style: {
-      fontSize: "1.2em",
-      fontWeight: "bolder",
-      color: "#fff",
-      lineHeight: "38px",
-      marginTop: "1rem"
-    }
-  }, "Alguns parceiros"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "companys",
-    className: "grid grid-cols-5 gap-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "box-company "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "",
-    src: _img_matterport_png__WEBPACK_IMPORTED_MODULE_3__["default"],
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "box-company ml-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _img_openspace_png__WEBPACK_IMPORTED_MODULE_2__["default"],
-    alt: ""
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "box-company ml-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _img_pars_png__WEBPACK_IMPORTED_MODULE_4__["default"],
-    alt: ""
-  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: {
-      display: "flex",
-      justifyContent: "center"
-    },
-    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: " image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    style: {
-      borderRadius: "2%",
-      opacity: "0.8"
-    },
-    width: "420",
-    className: "img-fluid ",
-    src: _img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
-    alt: "Usu\xE1rio"
-  }))))))));
+
+  return (
+    <>
+
+
+
+      <section id="mainHero" className="mt-5">
+        <div className="container-fluid">
+        <Slide/>
+          <div className="container container-props">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div className="text-wrapper align-left">
+                  <h1 id="title-hero"
+                    className="mbr-section-title mb-5 mt-5 display-2 text-uppercase animate__animated animate__fadeIn"
+                    style={{
+                      fontSize: "2.5rem",
+                      fontWeight: "700",
+                      color: "#FFF",
+                      lineHeight: "45px",
+                    }}
+                  >
+                    SOMOS A CONVERGÊNCIA ENTRE TECNOLOGIA E ENGENHARIA.
+                    SOMOS UMA CONSTRUTORA DIGITAL.
+                  </h1>
+                  <h2
+                    className="mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s"
+                    style={{
+                      fontSize: "1.2em",
+                      fontWeight: "400",
+                      color: "#FAFAFA",
+                      lineHeight: "28px",
+                    }}
+                  >
+                    Oferecemos uma gama completa de soluções e serviços, auxiliando nossos clientes a construir um mundo digital
+                  </h2>
+                  <div className="mbr-section-btn mt-5">
+                    <div className="mt-5 mb-4">
+
+
+                    </div>
+                    <button className="btn-call-action btn-large" href="#">
+                      <span className="text-lg font-bold">Saiba mais sobre nossos serviços</span>
+                    </button>
+                  </div>
+                  <div className="mt-5">
+                    <h3 id="title-plataformas"
+                      className="text-left text-uppercase"
+                      style={{
+                        fontSize: "1.2em",
+                        fontWeight: "bolder",
+                        color: "#fff",
+                        lineHeight: "38px",
+                        marginTop: "1rem",
+                      }}
+                    >
+                      Alguns parceiros
+                    </h3>
+                    <div id="companys" className="grid grid-cols-5 gap-20">
+                      <div className="box-company " >
+                        <img className="" src={MatterPort} alt="" />
+                      </div>
+                      <div className="box-company ml-3">
+                        <img src={OpenSpace} alt="" />
+                      </div>
+                      <div className="box-company ml-5">
+                        <img src={Pars} alt="" />
+                      </div>
+
+
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <div style={{ display: "flex", justifyContent: "center" }} className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+                <div className=" image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+                  <img style={{ borderRadius: "2%", opacity: "0.8" }}
+                    width="420"
+                    className="img-fluid "
+                    src={Digital}
+                    alt="Usuário"
+                  />
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </>
+  );
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeroContent);
+
+export default HeroContent;
+*/
 
 /***/ }),
 
@@ -6356,6 +6357,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.css */ "./src/Components/Slide/styles.css");
 /* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/modules */ "./node_modules/swiper/modules/index.mjs");
+/* harmony import */ var _HeroContent_img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../HeroContent/img/oculos-vr.jpg */ "./src/Components/HeroContent/img/oculos-vr.jpg");
+/* harmony import */ var _img_openspace_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/openspace.png */ "./src/Components/img/openspace.png");
+/* harmony import */ var _img_matterport_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/matterport.png */ "./src/Components/img/matterport.png");
+/* harmony import */ var _img_pars_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/pars.png */ "./src/Components/img/pars.png");
 
 // Import Swiper React components
 
@@ -6367,12 +6372,234 @@ __webpack_require__.r(__webpack_exports__);
 
 // import required modules
 
+
+
+
+
 function Slide() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "TESTE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.Swiper, {
     navigation: true,
     modules: [swiper_modules__WEBPACK_IMPORTED_MODULE_5__.Navigation],
     className: "mySwiper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 6"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, "Slide 9")));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container container-props"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "text-wrapper align-left"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    id: "title-hero",
+    className: "mbr-section-title mb-5 mt-5 display-2 text-uppercase animate__animated animate__fadeIn",
+    style: {
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      color: "#fff",
+      lineHeight: "45px",
+      textAlign: "left"
+    }
+  }, "SOMOS A CONVERG\xCANCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS UMA CONSTRUTORA DIGITAL."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s",
+    style: {
+      fontSize: "1.2em",
+      fontWeight: "400",
+      color: "#FAFAFA",
+      lineHeight: "28px",
+      textAlign: "left"
+    }
+  }, "Oferecemos uma gama completa de solu\xE7\xF5es e servi\xE7os, auxiliando nossos clientes a construir um mundo digital"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mbr-section-btn mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-5 mb-4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn-call-action btn-large float-left",
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "text-lg font-bold"
+  }, "Saiba mais sobre nossos servi\xE7os"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center"
+    },
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    style: {
+      borderRadius: "2%",
+      opacity: "0.8",
+      marginTop: "1.2rem"
+    },
+    width: "420",
+    className: "img-fluid ",
+    src: _HeroContent_img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    alt: "Usu\xE1rio"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container container-props"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "text-wrapper align-left"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    id: "title-hero",
+    className: "mbr-section-title mb-5 mt-5 display-2 text-uppercase animate__animated animate__fadeIn",
+    style: {
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      color: "#fff",
+      lineHeight: "45px"
+    }
+  }, "SOMOS A CONVERG\xCANCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS UMA CONSTRUTORA DIGITAL."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s",
+    style: {
+      fontSize: "1.2em",
+      fontWeight: "400",
+      color: "#FAFAFA",
+      lineHeight: "28px"
+    }
+  }, "Oferecemos uma gama completa de solu\xE7\xF5es e servi\xE7os, auxiliando nossos clientes a construir um mundo digital"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mbr-section-btn mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-5 mb-4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn-call-action btn-large",
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "text-lg font-bold"
+  }, "Saiba mais sobre nossos servi\xE7os"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "title-plataformas",
+    className: "text-left text-uppercase",
+    style: {
+      fontSize: "1.2em",
+      fontWeight: "bolder",
+      color: "#fff",
+      lineHeight: "38px",
+      marginTop: "1rem"
+    }
+  }, "Alguns parceiros"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "companys",
+    className: "grid grid-cols-5 gap-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "",
+    src: _img_matterport_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company ml-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_openspace_png__WEBPACK_IMPORTED_MODULE_7__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company ml-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_pars_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: ""
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center"
+    },
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    style: {
+      borderRadius: "2%",
+      opacity: "0.8"
+    },
+    width: "420",
+    className: "img-fluid ",
+    src: _HeroContent_img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    alt: "Usu\xE1rio"
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_1__.SwiperSlide, null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container container-props"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "text-wrapper align-left"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    id: "title-hero",
+    className: "mbr-section-title mb-5 mt-5 display-2 text-uppercase animate__animated animate__fadeIn",
+    style: {
+      fontSize: "2.5rem",
+      fontWeight: "700",
+      color: "#fff",
+      lineHeight: "45px"
+    }
+  }, "SOMOS A CONVERG\xCANCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS UMA CONSTRUTORA DIGITAL."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "mbr-text mbr-fonts-style mb-4 display-7 animate__animated animate__fadeIn animate__delay-1s",
+    style: {
+      fontSize: "1.2em",
+      fontWeight: "400",
+      color: "#FAFAFA",
+      lineHeight: "28px"
+    }
+  }, "Oferecemos uma gama completa de solu\xE7\xF5es e servi\xE7os, auxiliando nossos clientes a construir um mundo digital"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mbr-section-btn mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-5 mb-4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn-call-action btn-large",
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "text-lg font-bold"
+  }, "Saiba mais sobre nossos servi\xE7os"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "title-plataformas",
+    className: "text-left text-uppercase",
+    style: {
+      fontSize: "1.2em",
+      fontWeight: "bolder",
+      color: "#fff",
+      lineHeight: "38px",
+      marginTop: "1rem"
+    }
+  }, "Alguns parceiros"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "companys",
+    className: "grid grid-cols-5 gap-20"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "",
+    src: _img_matterport_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company ml-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_openspace_png__WEBPACK_IMPORTED_MODULE_7__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "box-company ml-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _img_pars_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+    alt: ""
+  })))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      display: "flex",
+      justifyContent: "center"
+    },
+    className: "col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: " image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    style: {
+      borderRadius: "2%",
+      opacity: "0.8"
+    },
+    width: "420",
+    className: "img-fluid ",
+    src: _HeroContent_img_oculos_vr_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+    alt: "Usu\xE1rio"
+  }))))))));
 }
 
 /***/ }),
@@ -6401,8 +6628,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animate_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(animate_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _Components_Header_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Components/Header/Header */ "./src/Components/Header/Header.jsx");
 /* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/HeroContent/HeroContent */ "./src/Components/HeroContent/HeroContent.jsx");
+/* harmony import */ var _Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _Components_Content_Content__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/Content/Content */ "./src/Components/Content/Content.jsx");
 /* harmony import */ var _Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Components/Footer/Footer */ "./src/Components/Footer/Footer.jsx");
+/* harmony import */ var _Components_Slide_Slide__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Components/Slide/Slide */ "./src/Components/Slide/Slide.jsx");
+
 
 
 
@@ -6413,7 +6643,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IndexPage = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_HeroContent_HeroContent__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Header_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Slide_Slide__WEBPACK_IMPORTED_MODULE_9__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Content_Content__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Components_Footer_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Scan2bin");
