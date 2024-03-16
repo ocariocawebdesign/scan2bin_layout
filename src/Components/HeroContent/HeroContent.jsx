@@ -1,8 +1,9 @@
-import React from "react";
+/*import React from "react";
 import Digital from "./img/oculos-vr.jpg";
 import OpenSpace from "../img/openspace.png";
 import MatterPort from "../img/matterport.png";
 import Pars from "../img/pars.png";
+import Slide from "../Slide/Slide";
 
 
 
@@ -11,8 +12,12 @@ const HeroContent = () => {
 
   return (
     <>
+
+
+
       <section id="mainHero" className="mt-5">
         <div className="container-fluid">
+        <Slide/>
           <div className="container container-props">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -102,3 +107,4 @@ const HeroContent = () => {
 };
 
 export default HeroContent;
+*/

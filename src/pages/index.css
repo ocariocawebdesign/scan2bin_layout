@@ -15,8 +15,6 @@ Variação de cinza:  #b2b4b2
 */
 
 #mainHero {
-   
-   
   width: 100%;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -29,8 +27,8 @@ Variação de cinza:  #b2b4b2
   );
   position: relative;
   z-index: 0;
-  /* border-bottom: 1px solid #333;*/
-
+  border-bottom: 1px solid #333;
+  
 }
 .container-props {
   align-items: center;
@@ -82,14 +80,13 @@ Variação de cinza:  #b2b4b2
   /*padding-top: 2rem;*/
   padding-bottom: 2rem;
   margin: 20 0 28px;
-  background: #FAFAFA;
- 
+  background: #fafafa;
 }
 .btn-call-action {
   background-color: #fff;
   border: 1px solid #d4d2d2;
   border-radius: 5px;
-  color: #25272C;
+  color: #25272c;
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -98,10 +95,10 @@ Variação de cinza:  #b2b4b2
   padding: 1rem;
 }
 
-.btn-call-action:hover{
+.btn-call-action:hover {
   background-color: #fff;
   border: 1px solid #d4d2d2;
-  color: #000!important;
+  color: #000 !important;
   padding: 1rem;
 }
 .box-company {
@@ -113,7 +110,6 @@ Variação de cinza:  #b2b4b2
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .heartBeat-effect {

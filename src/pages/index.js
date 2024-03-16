@@ -7,12 +7,14 @@ import Header from "../Components/Header/Header";
 import HeroContent from "../Components/HeroContent/HeroContent";
 import Content from "../Components/Content/Content";
 import Footer from "../Components/Footer/Footer";
+import Slide from "../Components/Slide/Slide";
 
 const IndexPage = () => {
   return (
     <>
       <Header />
-      <HeroContent />
+      <Slide/>
+      {/*<HeroContent />*/}
       <Content />
       <Footer />
     </>
