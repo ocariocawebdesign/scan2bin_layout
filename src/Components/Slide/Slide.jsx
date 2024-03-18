@@ -19,7 +19,7 @@ import Pars from "../img/pars.png";
 export default function Slide() {
   return (
     <>
-      <h2>TESTE</h2>
+     
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <div className="container container-props">
