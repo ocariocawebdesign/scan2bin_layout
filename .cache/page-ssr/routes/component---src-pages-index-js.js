@@ -6227,6 +6227,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+//Pegar imagem destacada: https://camistudio.com.br/scan2bindados/wp-json/wp/v2/media/31
 const Posts = ({
   startIndex
 }) => {

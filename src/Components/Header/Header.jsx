@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 //import NavDropdown from "react-bootstrap/NavDropdown";
 import LogoLight from "./img/logo.png";
+import TranslateButton from "../TranslateButton/TranslateButton";
 
 function Header() {
   return (
@@ -22,7 +23,7 @@ function Header() {
             style={{
               maxHeight: "100px",
               fontSize: "14px",
-              marginLeft: "25rem",
+              marginLeft: "12rem",
               fontWeight: "700",
             }}
             navbarScroll
@@ -32,6 +33,8 @@ function Header() {
             <Nav.Link href="solucoes">Soluções</Nav.Link>
             <Nav.Link href="recursos">Recursos</Nav.Link>
             <Nav.Link href="desenvolvedores">Contato</Nav.Link>
+        
+            
 
             {/*<NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -47,6 +50,10 @@ function Header() {
               Link
   </Nav.Link>*/}
           </Nav>
+          <TranslateButton/>
+
+        
+
           {/*} <Form className="d-flex">
             <Form.Control
               type="search"
@@ -59,6 +66,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    
   );
 }
 
