@@ -107,10 +107,9 @@ export default function Slide() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <div className="container container-props">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
                 <div className="text-wrapper align-left">
                   <h1
                     id="title-hero"
@@ -120,6 +119,7 @@ export default function Slide() {
                       fontWeight: "700",
                       color: "#fff",
                       lineHeight: "45px",
+                      textAlign: "left",
                     }}
                   >
                     SOMOS A CONVERGÊNCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS
@@ -132,6 +132,7 @@ export default function Slide() {
                       fontWeight: "400",
                       color: "#FAFAFA",
                       lineHeight: "28px",
+                      textAlign: "left",
                     }}
                   >
                     Oferecemos uma gama completa de soluções e serviços,
@@ -139,13 +140,13 @@ export default function Slide() {
                   </h2>
                   <div className="mbr-section-btn mt-5">
                     <div className="mt-5 mb-4"></div>
-                    <button className="btn-call-action btn-large" href="#">
+                    <button className="btn-call-action btn-large float-left" href="#">
                       <span className="text-lg font-bold">
                         Saiba mais sobre nossos serviços
                       </span>
                     </button>
                   </div>
-                  <div className="mt-5">
+                  {/*<div className="mt-5">
                     <h3
                       id="title-plataformas"
                       className="text-left text-uppercase"
@@ -170,16 +171,16 @@ export default function Slide() {
                         <img src={Pars} alt="" />
                       </div>
                     </div>
-                  </div>
+                    </div>*/}
                 </div>
               </div>
               <div
                 style={{ display: "flex", justifyContent: "center" }}
-                className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
+                className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
               >
                 <div className=" image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                   <img
-                    style={{ borderRadius: "2%", opacity: "0.8" }}
+                    style={{ borderRadius: "2%", opacity: "0.8", marginTop: "1.2rem" }}
                     width="420"
                     className="img-fluid "
                     src={Digital}
@@ -191,10 +192,9 @@ export default function Slide() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <div className="container container-props">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5">
                 <div className="text-wrapper align-left">
                   <h1
                     id="title-hero"
@@ -204,6 +204,7 @@ export default function Slide() {
                       fontWeight: "700",
                       color: "#fff",
                       lineHeight: "45px",
+                      textAlign: "left",
                     }}
                   >
                     SOMOS A CONVERGÊNCIA ENTRE TECNOLOGIA E ENGENHARIA. SOMOS
@@ -216,6 +217,7 @@ export default function Slide() {
                       fontWeight: "400",
                       color: "#FAFAFA",
                       lineHeight: "28px",
+                      textAlign: "left",
                     }}
                   >
                     Oferecemos uma gama completa de soluções e serviços,
@@ -223,13 +225,13 @@ export default function Slide() {
                   </h2>
                   <div className="mbr-section-btn mt-5">
                     <div className="mt-5 mb-4"></div>
-                    <button className="btn-call-action btn-large" href="#">
+                    <button className="btn-call-action btn-large float-left" href="#">
                       <span className="text-lg font-bold">
                         Saiba mais sobre nossos serviços
                       </span>
                     </button>
                   </div>
-                  <div className="mt-5">
+                  {/*<div className="mt-5">
                     <h3
                       id="title-plataformas"
                       className="text-left text-uppercase"
@@ -254,16 +256,16 @@ export default function Slide() {
                         <img src={Pars} alt="" />
                       </div>
                     </div>
-                  </div>
+                    </div>*/}
                 </div>
               </div>
               <div
                 style={{ display: "flex", justifyContent: "center" }}
-                className="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-5"
+                className="col-xs-12 col-sm-12 col-md-6 col-lg-6"
               >
                 <div className=" image-wrapper animate__animated animate__fadeIn animate__delay-0.10s drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
                   <img
-                    style={{ borderRadius: "2%", opacity: "0.8" }}
+                    style={{ borderRadius: "2%", opacity: "0.8", marginTop: "1.2rem" }}
                     width="420"
                     className="img-fluid "
                     src={Digital}
