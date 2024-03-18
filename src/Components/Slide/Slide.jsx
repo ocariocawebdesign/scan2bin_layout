@@ -20,7 +20,7 @@ export default function Slide() {
   return (
     <>
      
-      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper mt-5">
         <SwiperSlide>
           <div className="container container-props">
             <div className="row">
