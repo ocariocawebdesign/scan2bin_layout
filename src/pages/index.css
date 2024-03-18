@@ -137,14 +137,29 @@ Variação de cinza:  #b2b4b2
     margin-left: 0 !important;
   }
 
-  h1 #title-hero {
-    font-size: 1rem;
+  #title-hero {
+    font-size: 1.5rem!important;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px!important;
+    text-align: center!important;
   }
+
+  h2{
+    font-size: 1.0em!important;
+    font-weight: 400;
+    color: rgb(250, 250, 250);
+    line-height: 24px!important;
+    text-align: center!important;
+   }
 
   .btn-call-action {
     margin-bottom: 10px;
+    margin-left:2rem !important;
   }
 }
+
+
 
 @media only screen and (device-width: 740px) {
   /* default iPad screens */
@@ -158,21 +173,85 @@ Variação de cinza:  #b2b4b2
 
   .btn-call-action {
     margin-bottom: 10px;
+    margin-left:2rem !important;
   }
 
   nav #menu {
     margin-left: 0 !important;
   }
 
-  h1 #title-hero {
-    font-size: 1rem;
+  #title-hero {
+    font-size: 1.5rem!important;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px!important;
+    text-align: center!important;
   }
+
+  h2{
+    font-size: 1.0em!important;
+    font-weight: 400;
+    color: rgb(250, 250, 250);
+    line-height: 24px!important;
+    text-align: center!important;
+   }
 }
 
 @media only screen and (device-width: 768px) {
   /* default iPad screens */
 }
-/*Nobile*/
+
+@media only screen and (min-width: 360px) and (max-width: 800px){
+
+
+  #title-hero {
+    font-size: 1.5rem!important;
+    font-weight: 700;
+    color: #fff;
+    line-height: 36px!important;
+    text-align: center!important;
+  }
+
+  h2{
+    font-size: 1.0em!important;
+    font-weight: 400;
+    color: rgb(250, 250, 250);
+    line-height: 24px!important;
+    text-align: center!important;
+   }
+
+   .btn-call-action {
+    margin-bottom: 10px;
+    margin-left:2rem !important;
+  }
+  }
+
+
+  @media only screen and (min-width: 375px) and (max-width: 812px){
+
+
+     #title-hero {
+      font-size: 1.5rem!important;
+      font-weight: 700;
+      color: #fff;
+      line-height: 36px!important;
+      text-align: center!important;
+    }
+
+    h2{
+      font-size: 1.0em!important;
+      font-weight: 400;
+      color: rgb(250, 250, 250);
+      line-height: 24px!important;
+      text-align: center!important;
+     }
+     .btn-call-action {
+      margin-bottom: 10px;
+      margin-left:2rem !important;
+    }
+    }
+
+/*Mobile*/
 
 .btn-call-action:hover {
   border: 1px solid #868686;
