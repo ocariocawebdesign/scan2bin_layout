@@ -7,13 +7,14 @@ import Navbar from "react-bootstrap/Navbar";
 //import NavDropdown from "react-bootstrap/NavDropdown";
 import LogoLight from "./img/logo.png";
 import TranslateButton from "../TranslateButton/TranslateButton";
+//import { Link } from "gatsby"
 
 function Header() {
   return (
     <Navbar fixed="top" expand="lg" className="bg-body-tertiary" style={{}}>
       <Container>
         <Navbar.Brand href="#" style={{ padding: "0.5rem" }}>
-          <img src={LogoLight} width="120" alt="Logo Firepay" />
+          <img src={LogoLight} width="120" alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse style={{}} id="navbarScroll">
@@ -28,11 +29,13 @@ function Header() {
             }}
             navbarScroll
           >
-            <Nav.Link href="firepay">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="sobre">Sobre nós</Nav.Link>
             <Nav.Link href="solucoes">Soluções</Nav.Link>
             <Nav.Link href="recursos">Recursos</Nav.Link>
-            <Nav.Link href="desenvolvedores">Contato</Nav.Link>
+            <Nav.Link href="contato">Contato</Nav.Link>
+
+            
         
             
 
