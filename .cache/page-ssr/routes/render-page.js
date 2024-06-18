@@ -1866,7 +1866,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "be5c1970361f7a9b4791e319d41054dd"
+    "cacheDigest": "ee439f9f184226bb64354e272d0c43eb"
   }
 }, {
   name: 'partytown',

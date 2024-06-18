@@ -19,7 +19,7 @@ function PostDetail({ postId }) {
           const mediaResponse = await fetch(`https://camistudio.com.br/scan2bindados/wp-json/wp/v2/media/${post.featured_media}`);
           const mediaData = await mediaResponse.json();
           //setImageUrl(mediaData.source_url);
-          setImageUrl("https://camistudio.com.br/scan2bindados/wp-content/uploads/2023/12/slide-01.jpg");
+          setImageUrl(mediaData.source_url);
         } else {
           setImageUrl(console.log('sem imagem')); // Caso o post não tenha uma imagem destacada
         }

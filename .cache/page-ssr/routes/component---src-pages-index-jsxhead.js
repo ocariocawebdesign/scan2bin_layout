@@ -6035,7 +6035,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
 /* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
 /* harmony import */ var react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Navbar */ "./node_modules/react-bootstrap/esm/Navbar.js");
-/* harmony import */ var _img_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/logo.png */ "./src/Components/Header/img/logo.png");
+/* harmony import */ var _img_logo_escuro_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/logo-escuro.png */ "./src/Components/Header/img/logo-escuro.png");
 /* harmony import */ var _TranslateButton_TranslateButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../TranslateButton/TranslateButton */ "./src/Components/TranslateButton/TranslateButton.jsx");
 
 //import Button from "react-bootstrap/Button";
@@ -6060,8 +6060,8 @@ function Header() {
       padding: "0.5rem"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _img_logo_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-    width: "120",
+    src: _img_logo_escuro_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+    width: "140",
     alt: "Logo"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"].Toggle, {
     "aria-controls": "navbarScroll"
@@ -6073,8 +6073,8 @@ function Header() {
     className: "me-auto my-2 my-lg-0 text-uppercase ",
     style: {
       maxHeight: "100px",
-      fontSize: "14px",
-      marginLeft: "12rem",
+      fontSize: "12px",
+      marginLeft: "10rem",
       fontWeight: "700"
     },
     navbarScroll: true
@@ -6088,7 +6088,20 @@ function Header() {
     href: "recursos"
   }, "Recursos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Link, {
     href: "contato"
-  }, "Contato")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_TranslateButton_TranslateButton__WEBPACK_IMPORTED_MODULE_2__["default"], null))));
+  }, "Contato"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_5__["default"].Link, {
+    href: "contato"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "",
+    style: {
+      backgroundColor: "#fddb00",
+      color: "#000",
+      fontSize: "12px",
+      padding: "5px 5px",
+      borderRadius: "5px",
+      margin: "0",
+      fontWeight: "600"
+    }
+  }, "SOLICITAR OR\xC7AMENTO"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_TranslateButton_TranslateButton__WEBPACK_IMPORTED_MODULE_2__["default"], null))));
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
@@ -6682,6 +6695,7 @@ function PostDetail({
         if (post.featured_media) {
           const mediaResponse = await fetch(`https://camistudio.com.br/scan2bindados/wp-json/wp/v2/media/${post.featured_media}`);
           const mediaData = await mediaResponse.json();
+          //setImageUrl(mediaData.source_url);
           setImageUrl(mediaData.source_url);
         } else {
           setImageUrl(console.log('sem imagem')); // Caso o post não tenha uma imagem destacada
@@ -51651,10 +51665,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/Components/Header/img/logo.png":
-/*!********************************************!*\
-  !*** ./src/Components/Header/img/logo.png ***!
-  \********************************************/
+/***/ "./src/Components/Header/img/logo-escuro.png":
+/*!***************************************************!*\
+  !*** ./src/Components/Header/img/logo-escuro.png ***!
+  \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -51662,7 +51676,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/logo-e4772b590350ab301c49d7c9cb17e086.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/static/logo-escuro-b013d1e02c38f083372f8b2bae7f1dea.png");
 
 /***/ }),
 
